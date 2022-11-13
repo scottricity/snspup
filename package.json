@@ -1,0 +1,27 @@
+{
+  "name": "snspup",
+  "version": "1.0.0",
+  "description": "A utility package mainly for me, but you're welcome to use it.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottricity/snspup.git"
+  },
+  "author": "Jonathan Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottricity/snspup/issues"
+  },
+  "homepage": "https://github.com/scottricity/snspup#readme",
+  "dependencies": {
+    "got": "^12.5.2",
+    "path": "^0.12.7",
+    "js-yaml": "^4.1.0",
+    "moment": "^2.29.4",
+    "common-tags": "^1.8.2"
+  }
+}
