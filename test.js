@@ -1,3 +1,8 @@
 import api from "./index.js"
 
-console.log(api.queryBuilder({apiKey: "test", two: "one"}))
+//Testing the query builder
+let queryDecodeTest = "someapithing?key=mom&data=he&bruh=me"
+console.log(api.queryBuilder.decode(queryDecodeTest))
+
+let queryEncodeTest = {key: "mom", "data": "he", bruh: "me"}
+console.log(api.queryBuilder.encode(queryEncodeTest))

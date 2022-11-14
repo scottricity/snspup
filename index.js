@@ -10,5 +10,5 @@ export default {
     /**
      * Constructs a string in a nice url query format.
      */
-    queryBuilder: (await import("./lib/query.js")).default
+    queryBuilder: (await import("./lib/query.js"))
 }
