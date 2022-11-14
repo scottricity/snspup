@@ -1,6 +1,6 @@
 {
   "name": "snspup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility package mainly for me, but you're welcome to use it.",
   "main": "index.js",
   "type": "module",
